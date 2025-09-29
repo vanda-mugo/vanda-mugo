@@ -1,6 +1,6 @@
 # Hi there, I'm Vanda Mugo! 👋
 
-Welcome to my GitHub profile — where I architect scalable systems, build robust APIs, and explore cutting-edge technologies in web development, microservices, and robotics.
+Welcome to my GitHub profile - I architect scalable systems, build robust APIs, and explore cutting-edge technologies in web development and  microservices.
 
 ## 🚀 About Me
 
@@ -39,8 +39,8 @@ Welcome to my GitHub profile — where I architect scalable systems, build robus
 
 - 🔥 **Event-Driven Microservices** with NestJS and Apache Kafka
 - 🎯 **Scalable API Design** and distributed system patterns
-- 🤖 **Robotics Integration** with modern ROS2
 - ☁️ **Cloud-Native Applications** and containerization strategies
+-  🤖 **Robotics Integration** with modern ROS2
 
 
 
@@ -48,8 +48,7 @@ Welcome to my GitHub profile — where I architect scalable systems, build robus
 
 - Advanced Kafka patterns and stream processing
 - Kubernetes orchestration and service mesh
-- GraphQL federation and microservices integration
-- Advanced robotics algorithms and AI integration
+- GraphQL and microservices integration
 
 
 ## 📬 Let's Connect

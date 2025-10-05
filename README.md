@@ -15,24 +15,24 @@ Welcome to my GitHub profile - I architect scalable systems, build robust APIs, 
 
 ### **Backend & APIs**
 - **Languages:** Python, JavaScript, TypeScript, C++
-- **Frameworks:** NestJS, Django, Express.js, Nest.js
+- **Frameworks:** NestJS, Django, Express.js
 - **Microservices:** Kafka, Redis, Docker, Kubernetes
 - **Databases:** PostgreSQL, MongoDB, Redis
 
 
 ### **Frontend & Full-Stack**
-- **Frameworks:** React,
+- **Frameworks:** React,React Native, Redux, Tanstack, Zustand.
 - **Styling:** Tailwind CSS, Material-UI, Styled Components, CSS3
 
 
 ### **DevOps & Tools**
-- **Containerization:** Docker, Docker Compose
-- **Message Brokers:** Apache Kafka, RabbitMQ
-- **Tools:** Git, Postman, VS Code, Jest, Cypress
+- **Containerization:** Docker, Docker Compose.
+- **Message Brokers:** Apache Kafka, RabbitMQ.
+- **Tools:** Git, Postman, VS Code, Jest, Cypress.
 
 ### **Specialized Areas**
-- **Robotics:** ROS2, Navigation Systems, Autonomous Systems
-- **Architecture:** Event-Driven Design, CQRS, Domain-Driven Design
+- **Robotics:** ROS2, Navigation Systems, Autonomous Systems in C++ or Python.
+- **Architecture:** Event-Driven Design, Domain-Driven Design
 
 
 ## 🏗️ Current Focus
@@ -48,7 +48,7 @@ Welcome to my GitHub profile - I architect scalable systems, build robust APIs, 
 
 - Advanced Kafka patterns and stream processing
 - Kubernetes orchestration and service mesh
-- GraphQL and microservices integration
+- Microservices integration
 
 
 ## 📬 Let's Connect
@@ -61,4 +61,4 @@ Welcome to my GitHub profile - I architect scalable systems, build robust APIs, 
 
 > **"The best code is like a good joke, it's elegant, well-timed, and makes everyone smile."**
 
-Thanks for stopping by! Let's build something amazing together! 🚀✨
+

@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm John Mugo (Vanda) 👋</h1>
 
 <p align="center">
-  <em>Full-Stack Developer &amp; Systems Architect — building scalable, production-grade distributed systems</em>
+  <em>Full-Stack Developer &amp; Systems Architect - building scalable, production-grade distributed systems</em>
 </p>
 
 <p align="center">

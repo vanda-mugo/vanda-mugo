@@ -20,7 +20,7 @@
 
 ## 🚀 About Me
 
-I architect and build production-grade systems with a focus on **scalability**, **reliability**, and **clean design**. My work spans the full spectrum — from event-driven microservices backends and advanced REST APIs to robotics software and responsive frontends.
+I architect and build production-grade systems with a focus on **scalability**, **reliability**, and **clean design**. My work spans the full spectrum - from event-driven microservices backends and advanced REST APIs to robotics software and responsive frontends.
 
 - 🏗️ Specialized in **microservices architecture**, **event-driven systems**, and **distributed computing**
 - ⚙️ Experienced in designing **scalable ERP-class backends** with NestJS, TypeORM, PostgreSQL, and Docker

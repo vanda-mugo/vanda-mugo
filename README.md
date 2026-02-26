@@ -31,19 +31,37 @@ I architect and build production-grade systems with a focus on **scalability**, 
 
 ## 🏆 Featured Projects
 
-### 🔷 ERP Microservices Platform
-> **A production-grade distributed ERP backend** built with NestJS, Turborepo, and TCP-based inter-service communication.
+### 🔷 OptimizeERP — Multi-Tenant ERP Backend
+> **A comprehensive, production-grade multi-tenant ERP system** built with NestJS, designed to scale to 10,000 tenants with complete data isolation and secure authentication.
 
-**Architecture:** API Gateway → User Service | Order Service | Product Service | Payment Service
+**Architecture:** Modular Monolith → Master DB (Auth & Tenancy) + Tenant DB (Business Logic) with row-level isolation
 
-- Monorepo managed with **Turborepo** for parallel builds, smart caching, and workspace isolation
-- Event-driven inter-service messaging via NestJS **TCP transport** with `@MessagePattern` routing
-- Each service is self-contained with its own module boundary, enabling independent deployment
-- API Gateway exposes unified RESTful endpoints and proxies requests to downstream microservices
+- **Multi-tenant architecture** with two-database logical separation: Master DB for authentication/authorization, Tenant DB for business data
+- **Comprehensive RBAC** with granular permissions (`{module}.{resource}.{action}`), role hierarchy, and tenant-scoped access control
+- **6 core modules**: Authentication & Authorization, Inventory Management, Sales, Purchases, Accounting, and Reports & Analytics
+- **Production-ready infrastructure**: Docker containerized with Nginx reverse proxy, staging/production configs, and monitoring setup
+- **Advanced filtering engine** with 13+ operators, nested AND/OR logic groups, and field-level security via custom decorators
 
-**Stack:** `NestJS` `TypeScript` `Turborepo` `TCP Microservices` `Node.js`
+**Stack:** `NestJS` `TypeScript` `TypeORM` `PostgreSQL` `Redis` `Docker` `Nginx`
 
-🔗 [View Repository →](https://github.com/vanda-mugo/nest_microservices)
+🔗 [View Repository →](https://github.com/vanda-mugo/optimiseERP)
+
+---
+
+### 🔷 OptimizeERP — Mobile Application
+> **A React Native Expo mobile client** for the OptimizeERP multi-tenant ERP system, following Clean Architecture with strict TypeScript.
+
+**Architecture:** Clean Architecture — Presentation → Business Logic → Data layers
+
+- **React Native + Expo** with strict TypeScript (no `any`, no `@ts-ignore`) targeting iOS 15+ and Android API 26+
+- **Zustand + Immer** for client state, **TanStack Query v5** for server state, and **React Hook Form + Zod** for validated forms
+- **Secure multi-tenant auth**: JWT tokens in `expo-secure-store`, automatic refresh on 401, tenant-scoped API requests via `x-tenant-id` header
+- **Material Design 3** UI with React Native Paper, custom design system (colors, typography, spacing tokens)
+- **Permission-based rendering** with RBAC wildcard support and role-based conditional UI
+
+**Stack:** `React Native` `Expo` `TypeScript` `Zustand` `TanStack Query` `React Navigation v6` `Zod`
+
+🔗 [View Repository →](https://github.com/vanda-mugo/optimizeERP-mobile)
 
 ---
 
@@ -118,8 +136,12 @@ I architect and build production-grade systems with a focus on **scalability**, 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanda-mugo&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanda-mugo&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
+  <a href="https://github.com/vanda-mugo">
+    <img src="https://github-readme-stats.vercel.app/api?username=vanda-mugo&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+  </a>
+  <a href="https://github.com/vanda-mugo">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanda-mugo&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
+  </a>
 </p>
 
 ---

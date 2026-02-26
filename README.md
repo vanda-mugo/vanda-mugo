@@ -31,7 +31,7 @@ I architect and build production-grade systems with a focus on **scalability**, 
 
 ## 🏆 Featured Projects
 
-### 🔷 OptimizeERP — Multi-Tenant ERP Backend
+### 🔷 OptimizeERP - Multi-Tenant ERP Backend
 > **A comprehensive, production-grade multi-tenant ERP system** built with NestJS, designed to scale to 10,000 tenants with complete data isolation and secure authentication.
 
 **Architecture:** Modular Monolith → Master DB (Auth & Tenancy) + Tenant DB (Business Logic) with row-level isolation
@@ -48,10 +48,10 @@ I architect and build production-grade systems with a focus on **scalability**, 
 
 ---
 
-### 🔷 OptimizeERP — Mobile Application
+### 🔷 OptimizeERP - Mobile Application
 > **A React Native Expo mobile client** for the OptimizeERP multi-tenant ERP system, following Clean Architecture with strict TypeScript.
 
-**Architecture:** Clean Architecture — Presentation → Business Logic → Data layers
+**Architecture:** Clean Architecture - Presentation → Business Logic → Data layers
 
 - **React Native + Expo** with strict TypeScript (no `any`, no `@ts-ignore`) targeting iOS 15+ and Android API 26+
 - **Zustand + Immer** for client state, **TanStack Query v5** for server state, and **React Hook Form + Zod** for validated forms
@@ -66,7 +66,7 @@ I architect and build production-grade systems with a focus on **scalability**, 
 ---
 
 ### 🔷 NestJS Advanced Filter Backend
-> **A type-safe, composable filtering engine** for NestJS + TypeORM applications — the data query layer powering the ERP platform.
+> **A type-safe, composable filtering engine** for NestJS + TypeORM applications - the data query layer powering the ERP platform.
 
 - **13 filter operators**: `eq`, `neq`, `gt`, `lt`, `gte`, `lte`, `in`, `between`, `contains`, `starts_with`, `ends_with`, `is_null`, `is_not_null`
 - **Nested AND/OR logic groups** for arbitrarily complex queries via a single POST body or GET query string
@@ -91,7 +91,7 @@ I architect and build production-grade systems with a focus on **scalability**, 
 ---
 
 ### 🔷 ROS2 Robot Navigation Package
-> **Autonomous robot navigation system** built on ROS2 Humble with Python and C++ — covering path planning, obstacle avoidance, and sensor integration.
+> **Autonomous robot navigation system** built on ROS2 Humble with Python and C++ - covering path planning, obstacle avoidance, and sensor integration.
 
 **Stack:** `ROS2` `Python` `C++` `Navigation2`
 
